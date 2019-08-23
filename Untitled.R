@@ -28,3 +28,26 @@ inf_days_all_patients <- inf_data[,c(3,5,7)]
 max(car_data$Speed) - min(car_data$Speed)
 
 car_data[car_data$Speed == max(car_data$Speed), ]
+
+
+# last three patients, indexing by position 
+
+test <- day_3[58:60]
+
+## indexing by name
+
+car_data[, c("Color", "Speed")]
+
+## logical/ boolean indexing 
+
+day_3_no_ones <- day_3[day_3 != 1]
+
+
+speed_red <- car_data[ Color == "Red"]
+speed_blue <- car_data[ Color == "Blue"]
+
+average_speed_red <- mean(speed_red)
+average_speed_blue <- mean(speed_ble)
+
+
+
